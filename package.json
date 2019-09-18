@@ -19,5 +19,8 @@
   "engines": {
     "node": "10.13.0"
   },
-  "homepage": "https://github.com/tresdosdos/sockets-back#readme"
+  "homepage": "https://github.com/tresdosdos/sockets-back#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
 }
