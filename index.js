@@ -11,7 +11,7 @@ io.on('connection', (socket) => {
     console.log('connected');
 
     socket.on('text', (data) => {
-        console.log("Received text:", data);
+        io.emit('text', `Received text: ${data}`);
     });
 });
 
